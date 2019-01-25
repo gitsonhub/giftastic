@@ -1,0 +1,49 @@
+body { background-color:antiquewhite; }
+    
+button,div,form,input { margin: 10px; }
+    
+#buttons-view { float: left; margin-left: 30px }
+    
+#creature-form { margin-top: 10px; text-align: center }
+    
+#creatures-view { margin-left: 60px; float:left; margin-top: 10 px; 
+                  overflow: hidden; text-align: center }
+    
+#randgif { margin-left: none; margin-right: none; float: left; 
+          overflow: hidden;  font-family: 'IM Fell English SC', serif; }
+
+.button 
+{
+  background-color: #4CAF50; /* Green */
+  font-family: 'IM Fell English SC', serif;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 { background-color: white; color: black; border: 2px solid #4CAF50; }
+
+.button1:hover { background-color: #4CAF50; color: white; }
+
+#searchInstruction{ text-align: center; font-family: 'IM Fell English SC', serif; }
+
+h1 { margin-top: 2%; text-align: center; font-size: 55px; 
+     font-family: 'IM Fell English SC', serif;  } 
+
+#add-creature
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #4CAF50; 
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+#gifSize{ height: 200px; width: 360px; }
